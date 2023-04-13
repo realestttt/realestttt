@@ -28,8 +28,7 @@ wheel.addEventListener("click", ()=>{
         mid.style.display = "flex"
         mid.innerText = options[bitenNumber].innerText
         localStorage.setItem("discount", options[bitenNumber].innerText)
-        batoni3.style.opacity="1"
-        batoni3.style.pointerEvents = "all"
+        window.location.href = "form.html"
     }, 2000)
     
 })
