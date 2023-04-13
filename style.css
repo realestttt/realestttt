@@ -209,7 +209,7 @@ button:active{
     transition: 2s;
 }
 
-.wheelContainer div:not(.blackArrow){
+.wheelContainer div{
     height: 50%;
     width: 124px;
     position: absolute;
@@ -357,9 +357,63 @@ button:active{
 .logoDiv{
     position: absolute;
     left: 0;
-    top: -100px;
+    top: -00px;
 }
 
 .logoDiv img{
     width: 300px;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        background-color: ;
+    }
+
+    .logoDiv img{
+        width: 120px;
+    }
+
+    .logoDiv{
+        position: absolute;
+        left: 0;
+        top: -00px;
+    }
+
+    .iframeCont{
+        width: 200px!important;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .sure{
+        text-align: center;
+    }
+
+    .wheelContainer{
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .wheelContainer div{
+        width: 49.6px;
+        left: 75.1px;
+        height: 50%;
+        font-size: 10px;
+    }
+
+    .selector{
+        height: 15px;
+        width: 15px;
+        top: 52%;
+    }
+
+    .blackArrow{
+        height: 30px;
+        width: 19px;
+    }
+
+
 }
