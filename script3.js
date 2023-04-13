@@ -28,7 +28,7 @@ wheel.addEventListener("click", ()=>{
         mid.style.display = "flex"
         mid.innerText = options[bitenNumber].innerText
         localStorage.setItem("discount", options[bitenNumber].innerText)
-        window.location.href = "form.html"
+
     }, 2000)
 
     setTimeout(()=>{
