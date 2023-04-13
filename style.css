@@ -1,0 +1,365 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    overflow: hidden;
+
+}
+
+.container{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    max-height: 500px;
+    min-width: 320px;
+    border-radius: 20px;
+}
+
+.container div{
+    width: 90%;
+}
+
+.titleDiv{
+    width: 80%!important;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 15%;
+}
+
+.inputDiv input{
+    width: 90%;
+    height: 100%;
+    min-height: 35px;
+    max-height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.inputDiv input:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 2px rgb(67, 80, 124);
+    border: none;
+
+}
+
+.container div:last-child{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.container button{
+    width: 96%;
+    background-color: rgb(67, 80, 124);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+/* Second Page */
+
+._2pir{
+    display: none;
+}
+
+.containerTwo{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.containerTwo div:first-child{
+    width: 70%;
+}
+
+.containerTwo img{
+    width: 90%;
+    border-radius: 15px;
+    border: 10px rgb(39, 67, 101) solid;
+}
+
+.containerTwo a{
+    width: 50%;
+}
+
+.secondBody{
+    background-image: url("img/fbbg.jpeg");
+    background-size: 100% 100%;
+    height: ;
+    overflow-y: hidden;
+}
+
+.sure{
+    font-size: 24px;
+    width: 80%;
+    color: white;
+    font-weight: 700;
+}
+
+.imgDiv{
+    width: 80%;
+}
+
+.iframeCont{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    max-width: 300px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.btnDivTwo{
+    
+    
+}
+
+.btnDivTwo button{
+    background-color: rgb(67, 80, 124);
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.7;
+}
+
+
+
+
+
+/* Third Page */
+
+.bodyThree{
+    overflow: hidden;
+}
+
+.containerThree{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.wheelContainer{
+    height: 500px;
+    width: 500px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 15px solid #dde;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.wheelContainer div:not(.blackArrow){
+    height: 50%;
+    width: 124px;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    left: 188px;
+}
+
+.one{
+    left: 37.5%!important;
+    background-color: rgb(0, 106, 255);
+
+}
+.two{
+    background-color: orange;
+    transform: rotate(27.692deg)!important;
+}
+.three{
+    background-color: red;
+    transform: rotate(27.692*2deg)!important;
+}
+.four{
+    background-color: violet;
+    transform: rotate(27.692*3deg)!important;
+}
+.five{
+    background-color: green;
+    transform: rotate(27.692*4deg)!important;
+}
+.six{
+    background-color: pink;
+    transform: rotate(27.692*5deg)!important;
+}
+.seven{
+    background-color: black;
+    transform: rotate(27.692*6deg)!important;
+}
+.eight{
+    background-color: limegreen;
+    transform: rotate(27.692*7deg)!important;
+}
+.nine{
+    background-color: blue;
+    transform: rotate(27.692*8deg)!important;
+}
+.ten{
+    background-color: orange;
+    transform: rotate(27.692*9deg)!important;
+}
+.eleven{
+    background-color: red;
+    transform: rotate(27.692*10deg)!important;
+}
+.twelve{
+    background-color: green;
+    transform: rotate(27.692*11deg)!important;
+}
+.thirteen{
+    background-color: violet;
+    transform: rotate(27.692*12deg)!important;
+}
+
+.midDiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    width:500px;
+    z-index: 11;
+    color:white;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 15px;
+    display: none;
+}
+
+.blackArrow{
+    clip-path: polygon(80% 0, 20% 0, 50% 100%);
+    background-color: white;
+    position: absolute;
+    height: 60px;
+    width: 30px;
+    transform: rotate(180deg);
+    bottom: 10px;
+    left: -2px;
+
+}
+
+
+.selector{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%,-50%);
+}
+
+.spin{
+    font-size: 28px;
+    font-weight: 700;
+    width: 200px;
+}
+
+.containerThree button{
+    width: 200px;
+    background-color: rgb(67, 80, 124);
+    height: 45px;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.containerThree div:has(button){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDiv{
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
+
+.logoDiv img{
+    width: 300px;
+}
