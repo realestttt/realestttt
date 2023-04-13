@@ -30,6 +30,11 @@ wheel.addEventListener("click", ()=>{
         localStorage.setItem("discount", options[bitenNumber].innerText)
         window.location.href = "form.html"
     }, 2000)
+
+    setTimeout(()=>{
+
+        window.location.href = "form.html"
+    }, 4000)
     
 })
 
