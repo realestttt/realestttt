@@ -34,7 +34,7 @@ wheel.addEventListener("click", ()=>{
     setTimeout(()=>{
 
         window.location.href = "form.html"
-    }, 4000)
+    }, 7000)
     
 })
 
